@@ -32,35 +32,35 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-### Requisitos antes de empezar a desarrollar
+## Requisitos antes de empezar a desarrollar
  * Instalar [NodeJS]( https://nodejs.org/en/ ) 
  * Instalar Bower ejecutando `npm install -g bower`.
  * Instalar Gulp ejecutando `npm install -g gulp`.
  * Instalar dependencias de NodeJS ejecutando `npm install`.
  * Instalar dependencias de bower ejecutando `bower install`.
 
-## Running
+### Running
 Arrancar localmente ejecutando `npm run serve`
 It uses BrowserSync that provides live reload which refresh the application in the browser with any changes produced on the source.   
 
-## Testing
+### Testing
 
-### Unit testing
+#### Unit testing
 
 `npm run test` o  `npm run test:auto` para lanzar los test unitarios definidos con Jasmine (testing framework) y Karma (test Runner).
   
-### E2E testing
+#### E2E testing
 > Note: Es necesario tener instalado el JDK para lanzar el testing E2E
 [download](http://www.oracle.com/technetwork/java/javase/downloads)
 
 `npm run protractor`  para lanzar los test end to end con el framework protactor, el web driver de selenium integrado con Angular. 
 
-## Build
+### Build
 
 `npm run` o `npm run build` compila y optimiza los fuentes en el directorio /dist listo para publicar en *prducción*. Además genera la documentación en la carpeta docs/api.  
 
 
-### Configuración de entorno
+#### Configuración de entorno
 
 Están definidos dos entornos de ejecución distintos. `dev y prod`. Cada tarea de gulp permite añadir el perfil de ejecución.
 
